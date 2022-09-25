@@ -1,0 +1,25 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Curriculum vitae, or abbr. CV - a short chronological description of life, education, places of work and professional skills.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baklai/cv.git"
+  },
+  "keywords": [
+    "CV",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Dmitrii Baklai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baklai/cv/issues"
+  },
+  "homepage": "https://github.com/baklai/cv#readme"
+}

@@ -1,0 +1,144 @@
+{
+  "fullName": "Dmitrii Baklai",
+  "dateOfBirth": "June 25, 1985",
+  "address": "Lutsk, Ukraine",
+  "phone": "+38(066)919-49-39",
+  "email": "d.n.baklai@gmail.com",
+  "website": "https://baklai.github.io",
+  "social": {
+    "github": "https://github.com/baklai",
+    "linkedin": "https://www.linkedin.com/in/dmitrii-baklai/",
+    "telegram": "https://t.me/baklai",
+    "facebook": "https://www.facebook.com/dmitrii.baklai/"
+  },
+  "position": "Junior JavaScript Developer",
+  "aboutMe": "Junior JavaScript developer with a passion for learning. I want to be part of a team of professional to grow further and build high quality, scalable web application. In the future, I want to grow to a senior Full Stack JavaScript Developer.",
+  "techSkills": [
+    "JavaScript, HTML5, CSS3",
+    "Node.js, Express.js, Socket.io",
+    "Vue.js, Nuxt.js",
+    "Vuetify, Bootstrap",
+    "MongoDB, MySQL",
+    "Mongoose, Sequelize",
+    "Git, GitHub"
+  ],
+  "softSkills": ["Time management", "Self development", "Self-organization"],
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "language": "Russian",
+      "level": "advanced"
+    },
+    {
+      "language": "English",
+      "level": "pre-intermediate"
+    }
+  ],
+  "interests": ["Traveling", "Sport"],
+  "projects": [
+    {
+      "name": "Helpdesk service",
+      "link": "https://github.com/baklai/helpdesk-service",
+      "used": "Node.js, Vue.js, Nuxt.js, JavaScript, Vuetify, HTML5, CSS3",
+      "comment": ""
+    },
+    {
+      "name": "Windows cli",
+      "link": "https://github.com/baklai/win-cli",
+      "used": "Vue.js, Nuxt.js, JavaScript, Vuetify, HTML5, CSS3",
+      "comment": ""
+    },
+    {
+      "name": "Converter Cyr To Lat",
+      "link": "https://github.com/baklai/cyr-to-lat",
+      "used": "Vue.js, Nuxt.js, JavaScript, Vuetify, HTML5, CSS3",
+      "comment": ""
+    },
+    {
+      "name": "Helper supremo",
+      "link": "https://github.com/baklai/helper-supremo",
+      "used": "Bootstrap, JavaScript, HTML5, CSS3",
+      "comment": ""
+    }
+  ],
+  "experiences": [
+    {
+      "post": "System programmer",
+      "employer": "JSC \"Ukrzaliznytsia\"",
+      "address": "Ukraine, remotely",
+      "startDate": "March 2021",
+      "endDate": "Present time",
+      "tasks": [
+        "Helpdesk software development that supports a wide range of customer support activities.",
+        "Development of automatic scripts for setting up and administering a PC.",
+        "Development and testing of security policies for information networks and systems.",
+        "Administration of personal computers."
+      ]
+    },
+    {
+      "post": "Head of sector information protection",
+      "employer": "JSC \"Ukrzaliznytsia\"",
+      "address": "Ukraine, Donetsk region, Liman",
+      "startDate": "May 2019",
+      "endDate": "March 2021",
+      "tasks": [
+        "Development and testing of security policies for information networks and systems.",
+        "Installing and administering antivirus software.",
+        "Administration of personal computers."
+      ]
+    },
+    {
+      "post": "Electronics engineer",
+      "employer": "JSC \"Ukrzaliznytsia\"",
+      "address": "Ukraine, Donetsk region, Liman",
+      "startDate": "November 2016",
+      "endDate": "May 2019",
+      "tasks": [
+        "Administration of personal computers.",
+        "Software installation.",
+        "Technical support."
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "course": "JavaScript Starter",
+      "eduInstitution": "Online education platform ITVDN",
+      "endDate": "September 2022",
+      "certificate": "https://testprovider.com/ru/search-certificate/tp14575025"
+    },
+    {
+      "course": "Introduction to Cybersecurity",
+      "eduInstitution": "Cisco Networking Academy",
+      "endDate": "March 2021",
+      "certificate": "https://www.credly.com/badges/a1234ed6-b6d4-4ea5-b727-6095a10ca005"
+    },
+    {
+      "course": "NODEJS 2020 Q3 (JAVASCRIPT)",
+      "eduInstitution": "The Rolling Scopes School",
+      "endDate": "November 2020",
+      "certificate": "https://app.rs.school/certificate/1mbavv5g"
+    }
+  ],
+  "educations": [
+    {
+      "degree": "PhD Student",
+      "eduInstitution": "National Technical University \"Kharkiv Polytechnic Institute\"",
+      "department": "PhD Student Electric Power Industry",
+      "address": "Ukraine, Kharkov",
+      "startDate": "November 2013",
+      "endDate": "October 2016"
+    },
+    {
+      "degree": "Specialist",
+      "eduInstitution": "National Technical University \"Kharkiv Polytechnic Institute\"",
+      "department": "Electric Power Industry",
+      "address": "Ukraine, Kharkov",
+      "startDate": "September 2006",
+      "endDate": "February 2010"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./favicon.ico" rel="icon" />
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <title>CV // Dmitrii Baklai</title>
+  </head>
+
+  <body class="main">
+    <!--Main content-->
+    <main class="main-content">
+      <!--About-->
+      <section class="about">
+        <h2 class="about-position"></h2>
+        <h1 class="about-fullname"></h1>
+        <p class="about-description"></p>
+      </section>
+
+      <!--Projects-->
+      <section class="projects">
+        <h3 class="title">Projects</h3>
+        <ol class="projects-list">
+          <template id="project">
+            <li class="project-item">
+              <span class="project">
+                <a href="#" target="_blank" class="project-link"></a>
+                <span class="project-dots"></span>
+                <span class="project-bracket">[</span>
+                <span class="project-used"></span>
+                <span class="project-bracket">]</span>
+              </span>
+              <p class="project-description"></p>
+            </li>
+          </template>
+        </ol>
+      </section>
+
+      <!--Work experience-->
+      <section class="experiences">
+        <h3 class="title">Work Experience</h3>
+        <template id="experience">
+          <h4 class="experience-position">
+            <span class="organization"></span>
+          </h4>
+          <p class="period">
+            <span class="line">|</span>
+          </p>
+          <ul class="experience-list"></ul>
+        </template>
+        <template id="experience-task">
+          <li class="experience-list-item"></li>
+        </template>
+      </section>
+
+      <!--Education & Course-->
+      <section class="education">
+        <h3 class="title">Education & Courses</h3>
+        <ul class="course-list">
+          <template id="course">
+            <li class="course-item">
+              <h4 class="university"></h4>
+              <h5 class="department"></h5>
+              <p class="period">
+                <span class="line">|</span>
+                <a href="#" target="_blank" class="certificate">
+                  Link to certificate
+                </a>
+              </p>
+            </li>
+          </template>
+        </ul>
+        <ul class="education-list">
+          <template id="education">
+            <li class="education-item">
+              <h4 class="university"></h4>
+              <h5 class="department"></h5>
+              <p class="period">
+                <span class="line">|</span>
+              </p>
+            </li>
+          </template>
+        </ul>
+      </section>
+    </main>
+
+    <!--Sidebar-->
+    <aside class="sidebar">
+      <img
+        src="./public/img/photo.webp"
+        class="photo"
+        alt="My selfie"
+        width="210"
+        height="210"
+      />
+
+      <!--Contacts-->
+      <section class="contacts">
+        <h3 class="sidebar-title" hidden>Contacts</h3>
+        <div>
+          <p>
+            <a href="tel:" class="contact-link"></a>
+          </p>
+          <p>
+            <a href="mailto:" class="contact-link"></a>
+          </p>
+        </div>
+        <ul class="social-list">
+          <template id="social">
+            <li class="social-list-item">
+              <a href="#" target="_blank" class="social-link">
+                <img src="#" width="32" height="32" />
+              </a>
+            </li>
+          </template>
+        </ul>
+      </section>
+
+      <!--Tech skills-->
+      <section class="tech-skills">
+        <h3 class="sidebar-title">Tech Skills</h3>
+        <ul class="tech-skills-list">
+          <template id="tech-skill">
+            <li class="tech-skills-item">
+              <span class="tech-skills-text"></span>
+            </li>
+          </template>
+        </ul>
+      </section>
+
+      <!--Soft skills-->
+      <section class="soft-skills">
+        <h3 class="sidebar-title">Soft Skills</h3>
+        <ul class="soft-skills-list">
+          <template id="soft-skill">
+            <li class="soft-skills-item">
+              <span class="soft-skills-text"></span>
+            </li>
+          </template>
+        </ul>
+      </section>
+
+      <!--Languages-->
+      <section class="languages">
+        <h3 class="sidebar-title">Languages</h3>
+        <ul class="language-list">
+          <template id="language">
+            <li class="language-item">
+              <span class="language-text"></span>
+              <span class="language-subtext"></span>
+            </li>
+          </template>
+        </ul>
+      </section>
+
+      <!--Interests-->
+      <section class="interests">
+        <h3 class="sidebar-title">Interests</h3>
+        <ul class="interest-list">
+          <template id="interest">
+            <li class="interest-item">
+              <span class="interest-text"></span>
+            </li>
+          </template>
+        </ul>
+      </section>
+    </aside>
+
+    <script type="text/javascript" src="./public/js/main.js"></script>
+  </body>
+</html>
