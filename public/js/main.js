@@ -116,7 +116,6 @@ fetch(`./public/src/${CV_FILE_NAME}`)
           }
         };
         html2pdf().set(option).from(element).save();
-        html2pdf(element, option);
       }
     });
   });
