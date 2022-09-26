@@ -2,6 +2,8 @@
 
 const CV_FILE_NAME = 'cv.json';
 
+let FULL_NAME;
+
 fetch(`./public/src/${CV_FILE_NAME}`)
   .then((res) => res.json())
   .then((data) => {
@@ -59,7 +61,8 @@ fetch(`./public/src/${CV_FILE_NAME}`)
     });
 
     document.querySelector('.about-position').textContent = position;
-    document.querySelector('.about-fullname').textContent = fullName;
+    document.querySelector('.about-fullname').textContent = FULL_NAME =
+      fullName;
     document.querySelector('.about-description').textContent = aboutMe;
 
     const projectsList = document.querySelector('.projects-list');
@@ -94,6 +97,28 @@ fetch(`./public/src/${CV_FILE_NAME}`)
     for (const template of templates) {
       template.remove();
     }
+
+    document.body.addEventListener('keydown', function (e) {
+      if (e.ctrlKey && e.code == 'KeyP') {
+        e.preventDefault();
+        const { width, height } = document.body.getBoundingClientRect();
+        const element = document.querySelector('body');
+        const option = {
+          margin: 0,
+          enableLinks: true,
+          filename: `CV_${FULL_NAME}.pdf`,
+          image: { type: 'jpeg', quality: 0.98 },
+          html2canvas: { scale: 2, y: 10 },
+          jsPDF: {
+            format: [width, height],
+            unit: 'px',
+            orientation: 'portrait'
+          }
+        };
+        html2pdf().set(option).from(element).save();
+        html2pdf(element, option);
+      }
+    });
   });
 
 function createSocialItem(item) {

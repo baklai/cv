@@ -20,6 +20,10 @@ body {
   background-color: var(--bg-color);
 }
 
+a {
+  text-decoration: none;
+}
+
 /* main styles */
 .main {
   display: flex;
