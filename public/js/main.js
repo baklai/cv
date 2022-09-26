@@ -101,6 +101,7 @@ fetch(`./public/src/${CV_FILE_NAME}`)
     document.body.addEventListener('keydown', function (e) {
       if (e.ctrlKey && e.code == 'KeyP') {
         e.preventDefault();
+        window.scrollTo({ top: 0, left: 0 });
         const { width, height } = document.body.getBoundingClientRect();
         const element = document.querySelector('body');
         const option = {
