@@ -105,6 +105,12 @@
   ],
   "courses": [
     {
+      "course": "JavaScript Essential 2021",
+      "eduInstitution": "Online education platform ITVDN",
+      "endDate": "October 2022",
+      "certificate": "https://testprovider.com/ru/search-certificate/TP00856977"
+    },
+    {
       "course": "JavaScript Starter",
       "eduInstitution": "Online education platform ITVDN",
       "endDate": "September 2022",
